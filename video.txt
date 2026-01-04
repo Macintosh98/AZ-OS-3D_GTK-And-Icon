@@ -1,0 +1,38 @@
+MAC OS 3D Desktop Theme | GNOME 48 | Fedora 42 | elementary 8 | Ubuntu 24 | Manjaro 24 | Deepin 25
+
+Hi,
+
+**** Use Evolve-core App To Apply Theme ****
+https://github.com/arcnations-united/evolve-core 
+
+GTK Theme : https://www.pling.com/p/2278127/
+ICONS Theme : https://www.pling.com/p/2023325/
+SHELL Theme : https://www.pling.com/p/2278187/
+
+Note : Use This Extension for Custom Top Panel Margin and Radius So I havan't Added Any Fix CSS :
+https://extensions.gnome.org/extension/7284/dynamic-panel/
+
+
+- TOP PANEL                   
+- APP GRID & SEARCH
+- WORKSPACES
+- SYSTEM INFO 
+
+
+** If you like the theme then support project by giving ratings, thank you. **
+
+For Other Themes : https://www.pling.com/u/abhishekzambare/
+
+Donations :
+The theme is available for free. if you're enjoying the theme, feel free to buy me a cofee
+https://www.paypal.com/paypalme/abhishekzambare
+Thank you.
+
+Thanks for watching and subscribe for more.
+
+By Abhishek Zambare
+(https://abhishekzambare.vercel.app/)
+
+
+#hyprland #gnome #gnome48 #kde #kde6 #kde7 #fedora #fedora42 #ubuntu #ubuntu24 #ubuntu25 #deepin25 #deepin #manjaro #elementary #elementaryos #windows11 #macos15 #macos16 #windows10 #macos #dotfile #arch #archlinux #linuxmint #linuxmint22
+

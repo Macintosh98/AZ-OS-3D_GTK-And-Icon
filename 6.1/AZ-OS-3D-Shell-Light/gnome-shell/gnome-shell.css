@@ -1,0 +1,166 @@
+/* Blue */
+@define-color blue_1 #99c1f1;
+@define-color blue_2 #99c1f1;
+@define-color blue_3 #99c1f1;
+@define-color blue_4 #99c1f1;
+@define-color blue_5 #99c1f1;
+
+/* Green */
+@define-color green_1 #8ff0a4;
+@define-color green_2 #8ff0a4;
+@define-color green_3 #8ff0a4;
+@define-color green_4 #8ff0a4;
+@define-color green_5 #8ff0a4;
+
+/* Yellow */
+@define-color yellow_1 #f9f06b;
+@define-color yellow_2 #f9f06b;
+@define-color yellow_3 #f9f06b;
+@define-color yellow_4 #f9f06b;
+@define-color yellow_5 #f9f06b;
+
+/* Orange */
+@define-color orange_1 #ffbe6f;
+@define-color orange_2 #ffbe6f;
+@define-color orange_3 #ffbe6f;
+@define-color orange_4 #ffbe6f;
+@define-color orange_5 #ffbe6f;
+
+/* Red */
+@define-color red_1 #f66151;
+@define-color red_2 #f66151;
+@define-color red_3 #f66151;
+@define-color red_4 #f66151;
+@define-color red_5 #f66151;
+
+/* Purple */
+@define-color purple_1 #dc8add;
+@define-color purple_2 #dc8add;
+@define-color purple_3 #dc8add;
+@define-color purple_4 #dc8add;
+@define-color purple_5 #dc8add;
+
+/* Brown */
+@define-color brown_1 #cdab8f;
+@define-color brown_2 #cdab8f;
+@define-color brown_3 #cdab8f;
+@define-color brown_4 #cdab8f;
+@define-color brown_5 #cdab8f;
+
+.show-apps .show-apps-icon {
+  border: none;
+  background-image: url("./view-app-grid-symbolic8.svg");
+  background-size: contain;
+  color: transparent;
+}
+
+.show-apps:hover .show-apps-icon,
+.show-apps:active .show-apps-icon,
+.show-apps:checked .show-apps-icon,
+.show-apps:focus .show-apps-icon {
+  color: transparent;
+  background-image: url("./view-app-grid-symbolic8.svg");
+  background-size: contain;
+}
+
+.slider-container .slider-thumb {
+  height: 24px !important;
+}
+.slider {
+  -barlevel-height: 24px !important;
+}
+
+#panel {
+  margin: 10px 80px !important;
+  border-radius: 9999px;
+  background-color: rgba(200, 200, 200, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05),
+    0 12px 24px rgba(0, 0, 0, 0.05);
+  color: white;
+  height: 42px !important;
+}
+
+/* Dash */
+#dash .overview-icon {
+  padding: 2px !important;
+  background-color: transparent;
+}
+
+#dashtodockContainer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#dash .dash-background {
+  background-color: rgba(200, 200, 200, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05),
+    0 12px 24px rgba(0, 0, 0, 0.05);
+}
+#dashtodockContainer #dash .dash-background {
+  background-color: rgba(200, 200, 200, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05),
+    0 12px 24px rgba(0, 0, 0, 0.05);
+}
+
+#panel .panel-button {
+  font-size: 15px;
+  font-weight: 900;
+  color: white;
+  margin: 0px 20px !important;
+}
+
+#panel StBoxLayout {
+  margin: 0px 8px !important;
+}
+
+#panel StIcon {
+  icon-size: 20px;
+}
+
+.workspace-dot {
+  color: white;
+  background-color: white;
+  box-shadow: 1px 1px 1px #999, 1px 2px 1px #999, 1px 3px 1px #999,
+    1px 4px 1px #999, 1px 5px 1px #999, 1px 10px 5px rgba(0, 0, 0, 0.2),
+    1px 15px 10px rgba(0, 0, 0, 0.1), 1px 20px 15px rgba(0, 0, 0, 0.1),
+    1px 25px 30px rgba(0, 0, 0, 0.2);
+}
+
+#panel .panel-button,
+#panel .panel-button:hover,
+#panel .panel-button:active,
+#panel .panel-button:overview,
+#panel .panel-button:focus,
+#panel .panel-button:checked {
+  text-shadow: 1px 1px 1px #999, 1px 2px 1px #999, 1px 3px 1px #999,
+    1px 4px 1px #999, 1px 5px 1px #999, 1px 10px 5px rgba(0, 0, 0, 0.2),
+    1px 15px 10px rgba(0, 0, 0, 0.1), 1px 20px 15px rgba(0, 0, 0, 0.1),
+    1px 25px 30px rgba(0, 0, 0, 0.2);
+}
+
+#panel .panel-button .system-status-icon,
+#panel .panel-button .app-menu-icon > StIcon,
+#panel .panel-button .popup-menu-arrow,
+#panel .panel-button:hover .system-status-icon,
+#panel .panel-button:hover .app-menu-icon > StIcon,
+#panel .panel-button:hover .popup-menu-arrow,
+#panel .panel-button:active .system-status-icon,
+#panel .panel-button:active .app-menu-icon > StIcon,
+#panel .panel-button:active .popup-menu-arrow,
+#panel .panel-button:overview .system-status-icon,
+#panel .panel-button:overview .app-menu-icon > StIcon,
+#panel .panel-button:overview .popup-menu-arrow,
+#panel .panel-button:focus .system-status-icon,
+#panel .panel-button:focus .app-menu-icon > StIcon,
+#panel .panel-button:focus .popup-menu-arrow,
+#panel .panel-button:checked .system-status-icon,
+#panel .panel-button:checked .app-menu-icon > StIcon,
+#panel .panel-button:checked .popup-menu-arrow {
+  icon-shadow: 1px 1px 1px #999, 1px 2px 1px #999, 1px 3px 1px #999,
+    1px 4px 1px #999, 1px 5px 1px #999, 1px 10px 5px rgba(0, 0, 0, 0.2),
+    1px 15px 10px rgba(0, 0, 0, 0.1), 1px 20px 15px rgba(0, 0, 0, 0.1),
+    1px 25px 30px rgba(0, 0, 0, 0.2);
+}

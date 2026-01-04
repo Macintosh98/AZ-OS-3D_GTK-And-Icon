@@ -1,0 +1,55 @@
+.show-apps .show-apps-icon {
+  border: none;
+  background-image: url("./view-app-grid-symbolic8.svg");
+  background-size: contain;
+  color: transparent;
+}
+
+.show-apps:hover .show-apps-icon,
+.show-apps:active .show-apps-icon,
+.show-apps:checked .show-apps-icon,
+.show-apps:focus .show-apps-icon {
+  color: transparent;
+  background-image: url("./view-app-grid-symbolic8.svg");
+  background-size: contain;
+}
+
+.slider-container .slider-thumb {
+  height: 21px !important;
+}
+.slider {
+  -barlevel-height: 21px !important;
+}
+
+#panel {
+  margin: 10px 80px !important;
+  border-radius: 9999px;
+  background-color: rgba(55, 55, 55, 1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+/* Dash */
+#dash .overview-icon {
+  padding: 4px !important;
+}
+
+#dashtodockContainer {
+  padding-top: 6px;
+  padding-bottom: 8px;
+}
+
+#dashtodockContainer #dash .dash-background {
+  background-color: rgba(55, 55, 55, 1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#panel .panel-button {
+  font-weight: bold;
+  color: white;
+}
+
+.workspace-dot {
+  color: white;
+  background-color: white;
+}
