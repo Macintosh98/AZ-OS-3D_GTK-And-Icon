@@ -75,10 +75,13 @@
   border-radius: 9999px;
   background-color: rgba(200, 200, 200, 0.8);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05),
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.07),
+    0 2px 4px rgba(0, 0, 0, 0.05),
     0 12px 24px rgba(0, 0, 0, 0.05);
   color: white;
   height: 42px !important;
+  backdrop-filter: blur(10px);
 }
 
 /* Dash */
@@ -95,14 +98,20 @@
 #dash .dash-background {
   background-color: rgba(200, 200, 200, 0.8);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05),
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.07),
+    0 2px 4px rgba(0, 0, 0, 0.05),
     0 12px 24px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
 }
 #dashtodockContainer #dash .dash-background {
   background-color: rgba(200, 200, 200, 0.8);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05),
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.07),
+    0 2px 4px rgba(0, 0, 0, 0.05),
     0 12px 24px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
 }
 
 #panel .panel-button {
@@ -123,9 +132,15 @@
 .workspace-dot {
   color: white;
   background-color: white;
-  box-shadow: 1px 1px 1px #999, 1px 2px 1px #999, 1px 3px 1px #999,
-    1px 4px 1px #999, 1px 5px 1px #999, 1px 10px 5px rgba(0, 0, 0, 0.2),
-    1px 15px 10px rgba(0, 0, 0, 0.1), 1px 20px 15px rgba(0, 0, 0, 0.1),
+  box-shadow:
+    1px 1px 1px #999,
+    1px 2px 1px #999,
+    1px 3px 1px #999,
+    1px 4px 1px #999,
+    1px 5px 1px #999,
+    1px 10px 5px rgba(0, 0, 0, 0.2),
+    1px 15px 10px rgba(0, 0, 0, 0.1),
+    1px 20px 15px rgba(0, 0, 0, 0.1),
     1px 25px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -135,9 +150,15 @@
 #panel .panel-button:overview,
 #panel .panel-button:focus,
 #panel .panel-button:checked {
-  text-shadow: 1px 1px 1px #999, 1px 2px 1px #999, 1px 3px 1px #999,
-    1px 4px 1px #999, 1px 5px 1px #999, 1px 10px 5px rgba(0, 0, 0, 0.2),
-    1px 15px 10px rgba(0, 0, 0, 0.1), 1px 20px 15px rgba(0, 0, 0, 0.1),
+  text-shadow:
+    1px 1px 1px #999,
+    1px 2px 1px #999,
+    1px 3px 1px #999,
+    1px 4px 1px #999,
+    1px 5px 1px #999,
+    1px 10px 5px rgba(0, 0, 0, 0.2),
+    1px 15px 10px rgba(0, 0, 0, 0.1),
+    1px 20px 15px rgba(0, 0, 0, 0.1),
     1px 25px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -159,8 +180,14 @@
 #panel .panel-button:checked .system-status-icon,
 #panel .panel-button:checked .app-menu-icon > StIcon,
 #panel .panel-button:checked .popup-menu-arrow {
-  icon-shadow: 1px 1px 1px #999, 1px 2px 1px #999, 1px 3px 1px #999,
-    1px 4px 1px #999, 1px 5px 1px #999, 1px 10px 5px rgba(0, 0, 0, 0.2),
-    1px 15px 10px rgba(0, 0, 0, 0.1), 1px 20px 15px rgba(0, 0, 0, 0.1),
+  icon-shadow:
+    1px 1px 1px #999,
+    1px 2px 1px #999,
+    1px 3px 1px #999,
+    1px 4px 1px #999,
+    1px 5px 1px #999,
+    1px 10px 5px rgba(0, 0, 0, 0.2),
+    1px 15px 10px rgba(0, 0, 0, 0.1),
+    1px 20px 15px rgba(0, 0, 0, 0.1),
     1px 25px 30px rgba(0, 0, 0, 0.2);
 }
